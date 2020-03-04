@@ -1,0 +1,179 @@
+
+
+
+/*
+font-family: 'Oswald', ;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* body * {
+  border: 0.5px solid red;
+} */
+
+body * {
+  border-width: 3px;
+  color: #373A3C;
+}
+.container {
+   max-width: 75%;
+}
+
+/* <!-- SEC 0 --> */
+.navbar {
+  background-color: #660066;
+  text-align: left;
+  padding: 1rem 4rem;
+  position: fixed;
+  width: 100vw;
+}
+.logonombre {
+  color: #FFFFFF;
+  font-size: 40pt;
+  font-weight: 700;
+}
+.navbaropciones {
+  font-size: 16pt;
+}
+
+/* <!-- SEC 1 --> */
+.hero-section {
+text-align: right;
+background-image: url('../img/bg_hero.png');
+background-repeat: no-repeat;
+background-size: cover;
+color: #ffffff;
+width: 100%;
+min-height: 1200px;
+}
+.herotext {
+  font-family: 'Oswald' ;
+  top: 8rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 50rem;
+}
+.herotext h3 {
+  font-size: 72pt;
+  font-weight: 200;
+  color: #ffffff;
+}
+.herotext h1 {
+  font-size: 72pt;
+  font-weight: 700;
+  color: #ffffff;
+}
+/* <!-- SEC 2 --> */
+.maintext {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #373A3C;
+}
+.maintext h1 {
+  font-size: 25pt;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 4rem;
+}
+.maintext h3 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+}
+
+/* <!-- SEC 3--> */
+.exp {
+  text-align: center;
+}
+.sec3titulo {
+  font-family: 'Oswald' ;
+  text-align: center;
+  font-size: 52pt;
+  font-weight: 600;
+}
+.textexp h2 {
+  font-family: 'Oswald' ;
+  font-size: 25pt;
+  font-weight: 700;
+}
+.textexp2 h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25pt;
+  font-weight: 600;
+}
+
+/* <!-- SEC 4--> */
+.sec4 {
+  background-color: #660066;
+  width: 100%;
+}
+.sec4 h1 {
+  font-family: 'Oswald' ;
+  text-align: center;
+  font-size: 52pt;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.sec4 h5 {
+  font-size: 23pt;
+  font-weight: 600;
+  color: #373A3C;
+}
+.sec4 p {
+  font-size: 16pt;
+  font-weight: 200;
+  color: #373A3C;
+}
+.cardwhite {
+  background-color: #FFFFFF;
+}
+/* <!-- SEC 5--> */
+.sec5 h1 {
+  font-family: 'Oswald' ;
+  text-align: center;
+  font-size: 52pt;
+  font-weight: 700;
+  color: #373A3C;
+}
+/* <!-- SEC 6--> */
+.sec6 {
+  background-color: #660066;
+  width: 100%;
+}
+.footertext {
+  font-family: 'Oswald' ;
+  font-size: 40pt;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-align: center;
+}
+.socialicon {
+color: #ffffff;
+text-align: center;
+}
+footer i {
+margin: 0 0.1em 0.1em 0.1em;
+}
+@media screen and (max-width: 770px) {
+  .hero-section {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    width: 100%;
+    min-height: 200px;
+  }
+  .sec3titulo {
+    font-size: 32pt;
+    text-align: center;
+    }
+  hr {
+    width: 120px;
+  }
+  .footertext {
+    font-size: 30pt;
+  }
+  .herotext {
+    font-size: 1pt;
+  }
+}
