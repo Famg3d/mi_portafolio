@@ -27,6 +27,8 @@ body * {
   width: 100vw;
 }
 .logonombre {
+  font-family: 'Oswald' ;
+  text-align: left;
   color: #FFFFFF;
   font-size: 40pt;
   font-weight: 700;
@@ -175,5 +177,14 @@ margin: 0 0.1em 0.1em 0.1em;
   }
   .herotext {
     font-size: 1pt;
+  }
+  .sec4 h1 {
+  font-size: 35pt;
+  }
+  .sec5 h1 {
+  font-size: 35pt;
+  }
+  .textexp h2 {
+  font-size: 20pt;
   }
 }
