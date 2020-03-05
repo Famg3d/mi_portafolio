@@ -43,6 +43,7 @@ text-align: right;
 background-image: url('../img/bg_hero.png');
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center;
 color: #ffffff;
 width: 100%;
 min-height: 1200px;
@@ -82,7 +83,20 @@ min-height: 1200px;
   letter-spacing: 0.2rem;
   line-height: 4rem;
 }
-
+/* <!-- CAROUSEL --> */
+.carouselimg {
+  width: 95%;
+  height: auto;
+}
+.carousel-indicators {
+  top: 280px;
+}
+.carousel-indicators li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #373A3C;
+}
 /* <!-- SEC 3--> */
 .exp {
   text-align: center;

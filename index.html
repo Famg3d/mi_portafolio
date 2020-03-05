@@ -28,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto navbaropciones">
               <li class="nav-item">
-                <a class="nav-link active" href="#sobres">Sobre Mi</a>
+                <a class="nav-link text-white" href="#sobres">Sobre Mi</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#experiencias">Experiencia</a>
@@ -54,19 +54,19 @@
  </div>
 </header>
 <!-- SEC 2 -->
-<div id="sobres" class="container sec2 py-5 d-none d-md-block">
+<div id="sobres" class="container sec2 py-3 d-none d-md-block">
   <div class="maintext py-5">
     <h1>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
     </h1>
       <hr align="center" width="08%" color="black">
     <div class="row">
-      <div class="card-body text-left col-md-6 col-sm-12 py-5">
+      <div class="card-body text-left col-md-6 col-sm-12 py-2">
           <h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.
           </h3>
       </div>
-      <div class="card-body text-left col-md-6 col-sm-12 py-5">
+      <div class="card-body text-left col-md-6 col-sm-12 py-2">
           <h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.
           </h3>
@@ -76,37 +76,76 @@
 </div>
 
 <!-- SEC 3 -->
-<div id=#experiencias class="sec3 container exp pb-5 ">
-  <h1 class="sec3titulo mt-5">
+<div id="experiencias" class="sec3 container exp d-none d-md-block">
+  <h1 class="sec3titulo">
     MI EXPERIENCIA
   </h1>
   <hr align="center" width="08%" color="black">
-      <div class="row textexp">
-        <div class="col-md-6">
-          <div class="card-body">
-            <i class="fab fa-empire" style="font-size: 204px; color: #660066;"></i>
-              <h2>
-                Stormtrooper
-              </h2>
-              <h3>
-                1980 - 2014
-              </h3>
-          </div>
-        </div>
-        <div class="col-md-6 ">
-          <div class="card-body">
-            <i class="fab fa-medium" style="font-size: 204px; color: #660066;"></i>
-              <h2>
-                Desarrolladora Rails
-              </h2>
-              <h3>
-                2014 - 2018
-              </h3>
-          </div>
-        </div>
-      </div>
 </div>
+<!-- CAROUSEL -->
 
+<div class="container ruletahide d-none d-md-block pb-5">
+  <div id="maincarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#maincarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#maincarousel" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner text-center">
+      <dvi class="carousel-item active">
+        <div class="row textexp">
+          <div class="col-md-6">
+            <div class="card-body">
+              <i class="fab fa-empire" style="font-size: 204px; color: #660066;"></i>
+                <h2>
+                  Stormtrooper
+                </h2>
+                <h3>
+                  1980 - 2014
+                </h3>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="card-body">
+              <i class="fas fa-ghost" style="font-size: 204px; color: #660066;"></i>
+                <h2>
+                  Fantasma Particular
+                </h2>
+                <h3>
+                  1014 - 1218
+                </h3>
+            </div>
+          </div>
+        </div>
+      </dvi>
+      <dvi class="carousel-item text-center">
+        <div class="row textexp">
+          <div class="col-md-6">
+            <div class="card-body">
+              <i class="fab fa-wizards-of-the-coast" style="font-size: 204px; color: #660066;"></i>
+                <h2>
+                  Jugador de Magick
+                </h2>
+                <h3>
+                  2003 - 2020
+                </h3>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="card-body">
+              <i class="fas fa-dice-d20" style="font-size: 204px; color: #660066;"></i>
+                <h2>
+                  Master D20
+                </h2>
+                <h3>
+                  2000 - 2020
+                </h3>
+            </div>
+          </div>
+        </div>
+      </dvi>
+    </div>
+  </div>
+</div>
 <!-- SEC 4 -->
 <div id="trabajos" class="sec4 py-5" >
   <h1 class="pt-5">
@@ -167,26 +206,31 @@
     CONTACTO
   </h1>
     <hr align="center" width="08%" color="black">
-    <div class="typeform-widget" data-url="https://focelotmnighterrorg.typeform.com/to/tbXLGI" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=tbXLGI&utm_source=typeform.com-01E2KEVSE6P5J51V1647XPBWRN-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    <div class="typeform-widget" data-url="https://focelotmnighterrorg.typeform.com/to/tbXLGI" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 </div>
 
 <!-- SEC 6 -->
 <footer class="sec6 socialicon ">
-  <div class="row">
-    <h1 class="col-md-6 col-sm-12 footertext mt-5">
-      MAGDALENA
-    </h1>
-    <div class="col-md-6 col-sm-12 my-5">
-      <a href="https://github.com"><i class="fab fa-github-square fa-4x socialicon data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="GitHub""></i></a>
-      <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-4x socialicon data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Linkedin""></i></a>
-      <a href="https://twitter.com"><i class="fab fa-twitter-square fa-4x socialicon data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Twitter""></i></a>
-      <a href="https://facebook.com"><i class="fab fa-facebook-square fa-4x socialicon data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Facebook""></i></a>
+  <div class="container">
+    <div class="row">
+      <h1 class="col-md-6 col-sm-12 footertext mt-5">
+        MAGDALENA
+      </h1>
+      <div class="col-md-6 col-sm-12 my-5">
+        <a href="https://github.com"><i class="fab fa-github-square fa-4x socialicon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="GitHub"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-4x socialicon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Linkedin"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-4x socialicon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Twitter"></i></a>
+        <a href="https://facebook.com"><i class="fab fa-facebook-square fa-4x socialicon" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Facebook"></i></a>
+      </div>
     </div>
   </div>
 </footer>
 
     <!---Jquery 3.4.1---->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <!---Popper 1.16.0---->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <!---Bootstrap JS 4.4.1---->
